@@ -5,7 +5,7 @@ This project is part of the EduNet Green Skills & AI initiative.
 It uses renewable energy datasets from Kaggle to analyze, clean, and generate insights about global renewable energy adoption.
 
 ##  Repository Structure
-```
+``` bash
 edunet-green-skills-ai/
 │ renewable_energy.csv    # cleaned dataset (sample included)
 │ renewable_energy.ipynb  # Jupyter notebook
@@ -19,7 +19,7 @@ edunet-green-skills-ai/
 
 ##  How to Use
 1. Clone this repository:
-   ```
+   ``` bash
    git clone https://github.com/<yourusername>/Renewable-energy-project-final.git
    cd Renewable-energy-project-final
    ```
@@ -31,24 +31,24 @@ edunet-green-skills-ai/
      - Windows: `C:\Users\<username>\.kaggle\kaggle.json`
 
 3. Download dataset:
-   ```
+   ``` bash
    kaggle datasets
    I used sample dataset 
    ```
 
 4. Run the notebook or script:
-   ```
+   ``` bash
    jupyter notebook notebooks/renewable_energy.ipynb
    or
    python app.py
    ```
 
 5. The dataset will be saved to:
-   ```
+   ``` bash
    data/renewable_energy.csv
    ```
 6. The predicted results will be saved in:
-   ```
+   ``` bash
    predicted_report.csv
    ```
    
@@ -64,7 +64,7 @@ edunet-green-skills-ai/
 - pandas, numpy, matplotlib, seaborn, scikit-learn , tensorflow
 
 Install with:
-```
+``` bash
 pip install -r requirements.txt
 ```
 ## Credits
