@@ -13,7 +13,7 @@ edunet-green-skills-ai/
 | predicted_report.csv    # predicted report by app developed in streamlit
 | energy_model            # ML model
 | scalar.pkl
-| output.jpg              # Output screenshots 
+| outputs                 # This folder conatins output screenshots 
 │ README.md
 ```
 
