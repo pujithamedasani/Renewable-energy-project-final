@@ -1,65 +1,70 @@
 # Renewable-energy-project-final
-# Week-1-project
-# EduNet Green Skills & AI - Renewable Energy Project
+# EduNet Green Skills & AI (Sustainable Agriculture) - Renewable Energy Project
 
 This project is part of the EduNet Green Skills & AI initiative.  
 It uses renewable energy datasets from Kaggle to analyze, clean, and generate insights about global renewable energy adoption.
 
-## Repository Structure
+##  Repository Structure
+```
 edunet-green-skills-ai/
-│ app.py # Main application script
-│ energy_model.pkl # Trained ML model
-│ predicted_report.csv # Predicted results
-│ renewable_energy.csv # Original dataset
-│ renewable_energy.ipynb # Jupyter notebook for analysis
-│ scaler.pkl # Preprocessing scaler
-│ README.md # Project documentation
+│ renewable_energy.csv    # cleaned dataset (sample included)
+│ renewable_energy.ipynb  # Jupyter notebook
+│ app.py                  # Python script version
+| predicted_report.csv    # predicted report by app developed in streamlit
+| energy_model            # ML model
+| scalar.pkl
+| output.jpg              # Output screenshots 
+│ README.md
+```
 
-
-## How to Use
+## 🚀 How to Use
 1. Clone this repository:
-   git clone https://github.com/pujithamedasani/Renewable-energy-project-final.git
+   ```
+   git clone https://github.com/<yourusername>/Renewable-energy-project-final.git
    cd Renewable-energy-project-final
-Set up Kaggle API (if you need to re-download the dataset):
+   ```
 
-Create a Kaggle account and download kaggle.json from Kaggle Account Settings.
+2. Set up Kaggle API:
+   - Create a Kaggle account and download `kaggle.json` from [Kaggle Account Settings](https://www.kaggle.com/account).
+   - Place it in:  
+     - Linux/Mac: `~/.kaggle/kaggle.json`  
+     - Windows: `C:\Users\<username>\.kaggle\kaggle.json`
 
-Place it in:
+3. Download dataset:
+   ```
+   kaggle datasets
+   I used sample dataset 
+   ```
 
-Linux/Mac: ~/.kaggle/kaggle.json
+4. Run the notebook or script:
+   ```
+   jupyter notebook notebooks/renewable_energy.ipynb
+   or
+   python app.py
+   ```
 
-Windows: C:\Users\<username>\.kaggle\kaggle.json
+5. The cleaned dataset will be saved to:
+   ```
+   data/renewable_energy.csv
+   ```
 
-Run the notebook or app:
+## Features
+- Loads renewable energy dataset from Kaggle
+- Cleans and processes missing values & units
+- Calculates renewable share of total energy
+- Estimates yearly growth trends
+- Saves cleaned dataset for analysis
 
-jupyter notebook renewable_energy.ipynb
-# or run the app
-python app.py
-The predicted results will be saved in:
-
-predicted_report.csv
-Features
-Loads renewable energy dataset
-
-Cleans and processes missing values & units
-
-Builds and saves ML model (energy_model.pkl)
-
-Generates predictions and saves as CSV
-
-Preprocessing with saved scaler (scaler.pkl)
-
-## Requirements
-
-Python 3.8+
-
-pandas, numpy, matplotlib, seaborn, scikit-learn, Flask (if app.py uses it)
+##  Requirements
+- Python 3.8+ , Jupyter Notebook , Streamlit 
+- pandas, numpy, matplotlib, seaborn, scikit-learn , tensorflow
 
 Install with:
-
+```
 pip install -r requirements.txt
-
+```
 ## Credits
 
-Dataset: Sample datatset 
-Developed as part of EduNet Green Skills & AI project
+- Dataset: Kaggle - Renewable Energy and modified into my sample csv file data set 
+- Developed as part of EduNet Green Skills & AI project
+
