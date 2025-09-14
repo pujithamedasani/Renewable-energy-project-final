@@ -17,7 +17,7 @@ edunet-green-skills-ai/
 │ README.md
 ```
 
-## 🚀 How to Use
+##  How to Use
 1. Clone this repository:
    ```
    git clone https://github.com/<yourusername>/Renewable-energy-project-final.git
