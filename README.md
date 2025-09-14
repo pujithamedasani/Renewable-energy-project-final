@@ -11,8 +11,9 @@ edunet-green-skills-ai/
 │ renewable_energy.ipynb  # Jupyter notebook
 │ app.py                  # Python script version
 | predicted_report.csv    # predicted report by app developed in streamlit
-| energy_model
+| energy_model            # ML model
 | scalar.pkl
+| output.jpg              # Output screenshots 
 │ README.md
 ```
 
@@ -59,11 +60,11 @@ edunet-green-skills-ai/
 - pandas, numpy, matplotlib, seaborn, scikit-learn , tensorflow
 
 Install with:
-
+```
 pip install -r requirements.txt
 ```
-
 ## Credits
 
-- Dataset: Kaggle - Renewable Energy
+- Dataset: Kaggle - Renewable Energy and modified into my sample csv file data set 
 - Developed as part of EduNet Green Skills & AI project
+
