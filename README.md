@@ -43,11 +43,15 @@ edunet-green-skills-ai/
    python app.py
    ```
 
-5. The cleaned dataset will be saved to:
+5. The dataset will be saved to:
    ```
    data/renewable_energy.csv
    ```
-
+6. The predicted results will be saved in:
+   ```
+   predicted_report.csv
+   ```
+   
 ## Features
 - Loads renewable energy dataset from Kaggle
 - Cleans and processes missing values & units
